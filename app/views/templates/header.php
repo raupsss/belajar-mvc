@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.css">
 </head>
 
-<body>
+<body class="bg-light">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -38,12 +38,6 @@
                             <a class="dropdown-item" href="#">Another action</a>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
                     </li>
                 </ul>
             </div>
